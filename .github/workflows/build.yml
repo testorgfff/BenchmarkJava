@@ -4,6 +4,7 @@ on:
     branches:
       - master # or the name of your main branch
 
+
 jobs:
   build:
     name: Build
