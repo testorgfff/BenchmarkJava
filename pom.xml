@@ -1220,10 +1220,9 @@
     </reporting>
 
     <properties>
-        <properties>
-          <sonar.organization>testorgfff</sonar.organization>
-          <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        </properties>
+        <sonar.organization>testorgfff</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        
         <failOnMissingWebXml>false</failOnMissingWebXml>
         <java.target>8</java.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
