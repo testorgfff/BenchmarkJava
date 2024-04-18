@@ -1218,7 +1218,6 @@
             </plugin>
         </plugins>
     </reporting>
-
     <properties>
         <sonar.organization>testorgfff</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
