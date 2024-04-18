@@ -597,6 +597,10 @@
                                     <cargo.tomcat.connector.keyAlias>tomcat</cargo.tomcat.connector.keyAlias>
                                     <cargo.tomcat.httpSecure>true</cargo.tomcat.httpSecure>
                                 </properties>
+                                <properties>
+                                  <sonar.organization>testorgfff</sonar.organization>
+                                  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+                                </properties>
                             </configuration>
                         </configuration>
                     </plugin>
@@ -1219,8 +1223,6 @@
         </plugins>
     </reporting>
     <properties>
-        <sonar.organization>testorgfff</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <failOnMissingWebXml>false</failOnMissingWebXml>
         <java.target>8</java.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
